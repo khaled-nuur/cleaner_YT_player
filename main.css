@@ -1,0 +1,51 @@
+/* Hide shadows */
+.ytp-doubletap-ui,
+.ytp-doubletap-ui-legacy,
+.ytp-gradient-top,
+.ytp-gradient-bottom,
+.ytp-bezel,
+ytd-thumbnail-overlay-loading-preview-renderer {
+    display: none !important
+}
+
+
+/* Video Title */
+a.ytp-title-link.yt-uix-sessionlink.ytp-title-fullerscreen-link {
+    font-size: 20px;
+}
+.ytp-chrome-top-buttons {
+    display: none;
+}
+.ytp-playlist-menu-button-icon {
+    display: none;
+}
+
+/* header padding removal */
+.ytp-big-mode .ytp-title-text {
+    padding-top: 5px;
+}
+.ytp-big-mode .ytp-chrome-top .ytp-button {
+    padding-top: 5px;
+    height: auto;
+}
+
+
+/* playlist progress count adjustments  */
+.ytp-playlist-menu-button-text {
+    color: white;
+    text-shadow: 0 0 2px black;
+    font-size: 20px;
+    font-weight: bolder;
+    border-right: double;
+    height: fit-content;
+}
+
+
+.ytp-big-mode .ytp-playlist-menu-button-text {
+    line-height: revert;
+}
+
+/* remove scroll for more */
+button.ytp-fullerscreen-edu-button.ytp-button {
+    display: none;
+}
