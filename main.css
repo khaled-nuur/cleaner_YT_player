@@ -46,6 +46,11 @@ a.ytp-title-link.yt-uix-sessionlink.ytp-title-fullerscreen-link {
 }
 
 /* remove scroll for more */
-button.ytp-fullerscreen-edu-button.ytp-button {
+#movie_player > div.ytp-fullscreen-grid > div.ytp-fullscreen-grid-buttons-container > button {
     display: none;
+}
+
+/* hide interaction overlay */
+#movie_player > div.ytp-overlays-container > div.ytp-overlay-bottom-right{
+    display:none;
 }
